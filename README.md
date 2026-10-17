@@ -7,7 +7,7 @@
 
 本仓库是一个**结构化自学 + 求职准备**项目，聚焦两条主线：
 
-1. **技术主线（interview/）**：Web3 开发核心知识 + 面试八股文，覆盖区块链基础、密码学、共识机制、以太坊、Solidity、DeFi、Layer2、合约安全等，用于面试冲刺与知识体系搭建。
+1. **学习主线（learning-path/）**：Web3 转行学习路线图 + 面试八股文，覆盖区块链基础、密码学、共识机制、以太坊、Solidity、DeFi、Layer2、合约安全等，用于系统学习与面试冲刺。
 2. **远程工作主线（remotework/）**：真实的远程工作机会认知、求职渠道、避坑指南、学习路径手册，来自 Web3 从业者的一手经验整理。
 
 ## 目录结构
@@ -15,8 +15,9 @@
 ```
 web3-learning/
 ├── README.md                  # 本文件：项目说明与学习路线
-├── interview/                 # Web3 面试八股文（技术面准备）
-│   └── Web3面试八股文.md
+├── learning-path/             # 学习路线图 + 面试准备
+│   ├── Web3转行学习清单.md      # 5 阶段转行学习路线图（含每周安排/Checklist/资料）
+│   └── Web3面试八股文.md       # 系统面试八股文（11章 + 60 题速答）
 └── remotework/                # 远程工作文档（机会、渠道、避坑、路径）
     ├── 关于远程工作你想知道的都在这.md        # 阿兵：远程工作全景手册
     ├── C2E Labs AI&Web3转型远程工作手册.md     # 手册总目录
@@ -44,7 +45,8 @@ web3-learning/
 - 掌握 DeFi 核心协议与安全常识
 
 **阶段三：面试冲刺（2 周）**
-- 精读 `interview/Web3面试八股文.md`，逐条过关
+- 按 `learning-path/Web3转行学习清单.md` 逐阶段推进（5 阶段主线）
+- 精读 `learning-path/Web3面试八股文.md`，逐条过关
 - 复盘 2-3 个实战项目，准备项目讲述
 - 英文听力/口语突击（Web3 远程岗位普遍要求英文）
 
@@ -64,7 +66,7 @@ web3-learning/
   ```bash
   git init
   git add .
-  git commit -m "init: web3 learning repo (interview + remotework)"
+  git commit -m "init: web3 learning repo (learning-path + remotework)"
   git branch -M main
   git remote add origin git@github.com:sjs1919/web3-learning.git
   git push -u origin main
